@@ -3235,12 +3235,6 @@
 		(uuid "a5f8e44f-407b-42d0-8463-de3afe7be15d")
 	)
 	(junction
-		(at 119.38 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b4b7a9c6-c325-4899-abde-d361d56e7744")
-	)
-	(junction
 		(at 135.89 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3263,6 +3257,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dd794c3b-881a-4fdc-b469-b1cee637faae")
+	)
+	(junction
+		(at 118.11 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e1184796-867d-47df-8531-3632b84d85be")
 	)
 	(junction
 		(at 59.69 165.1)
@@ -3336,7 +3336,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 62.23) (xy 124.46 62.23)
+			(xy 118.11 62.23) (xy 124.46 62.23)
 		)
 		(stroke
 			(width 0)
@@ -3366,7 +3366,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 36.83) (xy 111.76 38.1)
+			(xy 107.95 36.83) (xy 107.95 38.1)
 		)
 		(stroke
 			(width 0)
@@ -3396,7 +3396,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 46.99) (xy 119.38 62.23)
+			(xy 118.11 46.99) (xy 118.11 62.23)
 		)
 		(stroke
 			(width 0)
@@ -3433,6 +3433,16 @@
 			(type default)
 		)
 		(uuid "138b23cc-f161-405d-b846-4762bb3a490c")
+	)
+	(wire
+		(pts
+			(xy 118.11 36.83) (xy 124.46 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18e70757-e60e-492c-b5aa-9ab6417b596a")
 	)
 	(wire
 		(pts
@@ -3676,17 +3686,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 36.83) (xy 124.46 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4cd8a7a0-caf4-4aa9-882e-30e45e198d35")
-	)
-	(wire
-		(pts
-			(xy 111.76 43.18) (xy 111.76 44.45)
+			(xy 107.95 43.18) (xy 107.95 45.72)
 		)
 		(stroke
 			(width 0)
@@ -4006,7 +4006,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 36.83) (xy 119.38 36.83)
+			(xy 107.95 36.83) (xy 118.11 36.83)
 		)
 		(stroke
 			(width 0)
@@ -4026,7 +4026,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 36.83) (xy 119.38 39.37)
+			(xy 118.11 36.83) (xy 118.11 39.37)
 		)
 		(stroke
 			(width 0)
@@ -4811,7 +4811,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD CER 0402 4.7nF 100V ±10% X7R"
+		(property "Description" "CAPACITOR:   SMD CER 0402 4.7nF 100V ±10% X7R   [885012205084] [SMD]"
 			(at 29.21 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -5103,7 +5103,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD CER 0402 100nF 50V ±10% X7R"
+		(property "Description" "CAPACITOR:   SMD CER 0402 100nF 50V ±10% X7R   [CGA2B3X7R1H104K050BB] [SMD]"
 			(at 124.46 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -5186,7 +5186,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 111.76 44.45 0)
+		(at 107.95 45.72 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5196,7 +5196,7 @@
 		(dnp no)
 		(uuid "18c1d842-cec6-40cf-b38c-f35b2c4fdaf7")
 		(property "Reference" "#PWR07"
-			(at 111.76 50.8 0)
+			(at 107.95 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5207,7 +5207,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 107.95 45.72 0)
+			(at 104.14 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5217,7 +5217,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 111.76 44.45 0)
+			(at 107.95 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5228,7 +5228,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 44.45 0)
+			(at 107.95 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5239,7 +5239,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 111.76 44.45 0)
+			(at 107.95 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5471,7 +5471,7 @@
 				)
 			)
 		)
-		(property "Description" "250-mA Ultra-Low-Noise Low-IQ LDO, 3.3V, SOT-23"
+		(property "Description" "IC:   LDO 3.3V 250mA   [LP5907MFX-3.3/NOPB] [SOT-23-5]"
 			(at 80.01 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -5617,7 +5617,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD CER 0603 2.2uF 25V ±10% X5R"
+		(property "Description" "CAPACITOR:   SMD CER 0603 2.2uF 25V ±10% X5R (OEPS J30 006)   [GRM188R61E225KA12D] [SMD]"
 			(at 64.77 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -5831,7 +5831,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD CER 0603 4.7uF 16V ±10% X6S"
+		(property "Description" "CAPACITOR:   SMD CER 0603 4.7uF 16V ±10% X6S   [C1608X6S1C475K080AC] [SMD]"
 			(at 156.21 127 0)
 			(hide yes)
 			(show_name no)
@@ -6069,7 +6069,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 119.38 43.18 0)
+		(at 118.11 43.18 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6080,7 +6080,7 @@
 		(fields_autoplaced yes)
 		(uuid "441bd376-e36b-454d-aafc-192eb6721a63")
 		(property "Reference" "R2"
-			(at 121.92 41.9099 0)
+			(at 120.65 41.9099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6091,7 +6091,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 121.92 44.4499 0)
+			(at 120.65 44.4499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6102,7 +6102,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 120.396 43.434 90)
+			(at 119.126 43.434 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6113,7 +6113,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 43.18 0)
+			(at 118.11 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6123,8 +6123,8 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0402 10kΩ ±0.1% 0.063W"
-			(at 119.38 43.18 0)
+		(property "Description" "RESISTOR:   SMD 0402 10kΩ ±0.1% 0.063W   [CPF0402B10KE1] [SMD]"
+			(at 118.11 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6135,7 +6135,7 @@
 			)
 		)
 		(property "MPN" "CPF0402B10KE1"
-			(at 110.617 40.132 0)
+			(at 109.347 40.132 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6147,7 +6147,7 @@
 			)
 		)
 		(property "OEPSPN" "OEPS020043"
-			(at 119.38 43.18 0)
+			(at 118.11 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6158,7 +6158,7 @@
 			)
 		)
 		(property "TempCo" ""
-			(at 119.38 43.18 0)
+			(at 118.11 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6169,7 +6169,7 @@
 			)
 		)
 		(property "Tolerance" "0.1%"
-			(at 119.38 43.18 0)
+			(at 118.11 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6180,7 +6180,7 @@
 			)
 		)
 		(property "Voltage" ""
-			(at 119.38 43.18 0)
+			(at 118.11 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6261,7 +6261,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD CER 1206 10uF 25V ±10% X7R"
+		(property "Description" "CAPACITOR:   SMD CER 1206 10uF 25V ±10% X7R   [GRM31CR71E106KA12L] [SMD]"
 			(at 95.25 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -6294,7 +6294,7 @@
 				)
 			)
 		)
-		(property "TempCo" "X5R"
+		(property "TempCo" "X7R"
 			(at 95.25 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -6472,7 +6472,7 @@
 				)
 			)
 		)
-		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
+		(property "Description" "CONNECTOR:   USB2.0 TYPE C 24P SMD R/A   [USB4105-GF-A] [SMD/TH]"
 			(at 39.37 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -6610,7 +6610,7 @@
 		(dnp no)
 		(uuid "522ad9c9-feda-4b2a-936e-214581f5b82a")
 		(property "Reference" "U1"
-			(at 120.65 27.432 0)
+			(at 154.686 86.614 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6620,8 +6620,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "FT232RL"
-			(at 120.65 29.972 0)
+		(property "Value" "FT232RNL-REEL"
+			(at 154.686 89.154 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6653,7 +6653,7 @@
 				)
 			)
 		)
-		(property "Description" "USB to Serial Interface, SSOP-28"
+		(property "Description" "IC:   USB Interface IC USB to Serial UART   [FT232RNL-REEL] [SSOP-28]"
 			(at 144.78 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -7648,7 +7648,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD CER 0603 2.2uF 25V ±10% X5R"
+		(property "Description" "CAPACITOR:   SMD CER 0603 2.2uF 25V ±10% X5R (OEPS J30 006)   [GRM188R61E225KA12D] [SMD]"
 			(at 130.81 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -7861,7 +7861,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD CER 0402 100nF 50V ±10% X7R"
+		(property "Description" "CAPACITOR:   SMD CER 0402 100nF 50V ±10% X7R   [CGA2B3X7R1H104K050BB] [SMD]"
 			(at 59.69 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -7999,7 +7999,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD CER 0402 100nF 50V ±10% X7R"
+		(property "Description" "CAPACITOR:   SMD CER 0402 100nF 50V ±10% X7R   [CGA2B3X7R1H104K050BB] [SMD]"
 			(at 165.1 127 0)
 			(hide yes)
 			(show_name no)
@@ -8135,7 +8135,7 @@
 				)
 			)
 		)
-		(property "Description" "IC REG LIN POS ADJ 1A SOT-223-6"
+		(property "Description" "IC:   LDO ADJ 1A   [TPS73801DCQR] [SOT-223-6]"
 			(at 71.882 158.496 0)
 			(hide yes)
 			(show_name no)
@@ -8284,7 +8284,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD CER 0402 100nF 50V ±10% X7R"
+		(property "Description" "CAPACITOR:   SMD CER 0402 100nF 50V ±10% X7R   [CGA2B3X7R1H104K050BB] [SMD]"
 			(at 138.43 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -8422,7 +8422,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD CER 0402 100nF 50V ±10% X7R"
+		(property "Description" "CAPACITOR:   SMD CER 0402 100nF 50V ±10% X7R   [CGA2B3X7R1H104K050BB] [SMD]"
 			(at 99.06 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -8525,7 +8525,7 @@
 				)
 			)
 		)
-		(property "Value" "40R@100MHz"
+		(property "Value" "MI0805K400R-10"
 			(at 88.9 33.8836 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8557,7 +8557,7 @@
 				)
 			)
 		)
-		(property "Description" "FERRITE BEAD SMD 40Ω 2A 50mΩ"
+		(property "Description" "INDUCTOR:   FERRITE BEAD SMD 40Ω 2A 50mΩ   [MI0805K400R-10] [0805]"
 			(at 88.9 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -8694,7 +8694,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD CER 0402 100nF 50V ±10% X7R"
+		(property "Description" "CAPACITOR:   SMD CER 0402 100nF 50V ±10% X7R   [CGA2B3X7R1H104K050BB] [SMD]"
 			(at 152.4 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -8854,7 +8854,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 111.76 40.64 180)
+		(at 107.95 40.64 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8865,7 +8865,7 @@
 		(fields_autoplaced yes)
 		(uuid "a8a1ecc4-c768-4061-bc57-88fd0af8eb0a")
 		(property "Reference" "C3"
-			(at 114.3 39.3635 0)
+			(at 110.49 39.3635 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8876,7 +8876,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 114.3 41.9035 0)
+			(at 110.49 41.9035 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8887,7 +8887,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 111.76 40.64 0)
+			(at 107.95 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8898,7 +8898,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 40.64 0)
+			(at 107.95 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8908,8 +8908,8 @@
 				)
 			)
 		)
-		(property "Description" "SMD CER 0402 100nF 50V ±10% X7R"
-			(at 111.76 40.64 0)
+		(property "Description" "CAPACITOR:   SMD CER 0402 100nF 50V ±10% X7R   [CGA2B3X7R1H104K050BB] [SMD]"
+			(at 107.95 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8920,7 +8920,7 @@
 			)
 		)
 		(property "MPN" "CGA2B3X7R1H104K050BB"
-			(at 111.76 40.64 0)
+			(at 107.95 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8931,7 +8931,7 @@
 			)
 		)
 		(property "OEPSPN" "OEPS010016"
-			(at 111.76 40.64 0)
+			(at 107.95 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8942,7 +8942,7 @@
 			)
 		)
 		(property "TempCo" "X7R"
-			(at 111.76 40.64 0)
+			(at 107.95 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8953,7 +8953,7 @@
 			)
 		)
 		(property "Tolerance" "10%"
-			(at 111.76 40.64 0)
+			(at 107.95 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8964,7 +8964,7 @@
 			)
 		)
 		(property "Voltage" "50V"
-			(at 111.76 40.64 0)
+			(at 107.95 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9043,7 +9043,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0402 5.1kΩ ±1% 0.100W"
+		(property "Description" "RESISTOR:   SMD 0402 5.1kΩ ±0.1% 0.063W   [RT0402BRD075K1L] [SMD]"
 			(at 67.31 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -9054,7 +9054,7 @@
 				)
 			)
 		)
-		(property "MPN" "ERJ-2RKF5101X"
+		(property "MPN" "RT0402BRD075K1L"
 			(at 67.31 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -9065,7 +9065,7 @@
 				)
 			)
 		)
-		(property "OEPSPN" "OEPS020173"
+		(property "OEPSPN" "OEPS020203"
 			(at 67.31 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -9087,7 +9087,7 @@
 				)
 			)
 		)
-		(property "Tolerance" "1%"
+		(property "Tolerance" "0.1%"
 			(at 67.31 41.91 90)
 			(hide yes)
 			(show_name no)
@@ -9179,7 +9179,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD CER 0402 100nF 50V ±10% X7R"
+		(property "Description" "CAPACITOR:   SMD CER 0402 100nF 50V ±10% X7R   [CGA2B3X7R1H104K050BB] [SMD]"
 			(at 58.42 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -9314,7 +9314,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0402 5.1kΩ ±1% 0.100W"
+		(property "Description" "RESISTOR:   SMD 0402 5.1kΩ ±0.1% 0.063W   [RT0402BRD075K1L] [SMD]"
 			(at 67.31 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -9325,7 +9325,7 @@
 				)
 			)
 		)
-		(property "MPN" "ERJ-2RKF5101X"
+		(property "MPN" "RT0402BRD075K1L"
 			(at 67.31 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -9336,7 +9336,7 @@
 				)
 			)
 		)
-		(property "OEPSPN" "OEPS020173"
+		(property "OEPSPN" "OEPS020203"
 			(at 67.31 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -9358,7 +9358,7 @@
 				)
 			)
 		)
-		(property "Tolerance" "1%"
+		(property "Tolerance" "0.1%"
 			(at 67.31 44.45 90)
 			(hide yes)
 			(show_name no)
@@ -9452,7 +9452,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0402 1MΩ ±1% 0.063W"
+		(property "Description" "RESISTOR:   SMD 0402 1MΩ ±1% 0.063W   [CRCW04021M00FKED] [SMD]"
 			(at 24.13 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -9664,7 +9664,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0402 27Ω ±1% 0.063W"
+		(property "Description" "RESISTOR:   SMD 0402 27Ω ±1% 0.063W   [RMCF0402FT27R0] [SMD]"
 			(at 69.85 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -10110,7 +10110,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD CER 0402 100nF 50V ±10% X7R"
+		(property "Description" "CAPACITOR:   SMD CER 0402 100nF 50V ±10% X7R   [CGA2B3X7R1H104K050BB] [SMD]"
 			(at 35.56 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -10612,7 +10612,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0402 27Ω ±1% 0.063W"
+		(property "Description" "RESISTOR:   SMD 0402 27Ω ±1% 0.063W   [RMCF0402FT27R0] [SMD]"
 			(at 69.85 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -10746,7 +10746,7 @@
 				)
 			)
 		)
-		(property "Description" "250-mA Ultra-Low-Noise Low-IQ LDO, 3.3V, SOT-23"
+		(property "Description" "IC:   LDO 3.3V 250mA   [LP5907MFX-3.3/NOPB] [SOT-23-5]"
 			(at 146.05 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -11205,7 +11205,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD CER 0603 4.7uF 16V ±10% X6S"
+		(property "Description" "CAPACITOR:   SMD CER 0603 4.7uF 16V ±10% X6S   [C1608X6S1C475K080AC] [SMD]"
 			(at 90.17 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -11389,7 +11389,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "8k2"
+		(property "Value" "8.2k"
 			(at 86.106 160.782 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11422,7 +11422,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0603 8.2kΩ ±1% 0.100W"
+		(property "Description" "RESISTOR:   SMD 0603 8.2kΩ ±1% 0.100W   [ERJ-3EKF8201V] [SMD]"
 			(at 87.63 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -11526,7 +11526,7 @@
 				)
 			)
 		)
-		(property "Value" "40R@100MHz"
+		(property "Value" "MI0805K400R-10"
 			(at 71.12 33.8836 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11558,7 +11558,7 @@
 				)
 			)
 		)
-		(property "Description" "FERRITE BEAD SMD 40Ω 2A 50mΩ"
+		(property "Description" "INDUCTOR:   FERRITE BEAD SMD 40Ω 2A 50mΩ   [MI0805K400R-10] [0805]"
 			(at 71.12 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -11694,7 +11694,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0402 2kΩ ±1% 0.100W"
+		(property "Description" "RESISTOR:   SMD 0402 3.3kΩ ±1% 0.100W   [ERJ-2RKF3301X] [SMD]"
 			(at 87.63 170.18 0)
 			(hide yes)
 			(show_name no)

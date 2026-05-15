@@ -6346,7 +6346,7 @@
 				)
 			)
 		)
-		(property "Description" "OPAMP VFB 1 CIRCUIT"
+		(property "Description" "IC:   OPAMP VFB 1 CIRCUIT   [THS4281DBVT] [SC-74A]"
 			(at 144.78 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -6492,7 +6492,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0402 10MΩ ±0.1% 0.063W"
+		(property "Description" "RESISTOR:   SMD 0402 10MΩ ±1% 0.063W   [CRCW040210M0FKED] [SMD]"
 			(at 99.06 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -6597,8 +6597,9 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MotorCkeck1"
+		(property "Value" "PPTC051LFBN-RC"
 			(at 267.97 64.7701 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6630,7 +6631,7 @@
 				)
 			)
 		)
-		(property "Description" "CONN RCPT 2.54mm 5POS"
+		(property "Description" "CONNECTOR:   HEADER RCPT 2.54MM straight 1x5POS   [PPTC051LFBN-RC] [TH]"
 			(at 265.43 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -6852,7 +6853,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0402 649kΩ ±1% 0.100W"
+		(property "Description" "RESISTOR:   SMD 0402 649kΩ ±1% 0.100W   [ERJ-2RKF6493X] [SMD]"
 			(at 255.27 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -6942,7 +6943,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "0b874663-55f5-4ee4-819f-ff7f357750d8")
 		(property "Reference" "TP10"
@@ -7281,7 +7282,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0402 10kΩ ±0.1% 0.063W"
+		(property "Description" "RESISTOR:   SMD 0402 10kΩ ±0.1% 0.063W   [CPF0402B10KE1] [SMD]"
 			(at 161.29 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -7496,7 +7497,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0402 10kΩ ±0.1% 0.063W"
+		(property "Description" "RESISTOR:   SMD 0402 10kΩ ±0.1% 0.063W   [CPF0402B10KE1] [SMD]"
 			(at 181.61 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -7634,7 +7635,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0402 1kΩ ±1% 0.063W"
+		(property "Description" "RESISTOR:   SMD 0402 1kΩ ±1% 0.063W   [CRCW04021K00FKED] [SMD]"
 			(at 250.19 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -7772,7 +7773,7 @@
 				(justify left)
 			)
 		)
-		(property "Description" "1.2A Id, 60V Vds, 480mOhm Rds, N-Channel HEXFET Power MOSFET, SOT-23"
+		(property "Description" "TRANSISTOR:   MOSFET N-CH 30V 350mA   [DMN63D8L-7] [SOT23]"
 			(at 45.72 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -7912,7 +7913,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0402 10kΩ ±0.1% 0.063W"
+		(property "Description" "RESISTOR:   SMD 0402 10kΩ ±0.1% 0.063W   [CPF0402B10KE1] [SMD]"
 			(at 127 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -8049,7 +8050,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0603 1.2kΩ ±0.1% 0.100W"
+		(property "Description" "RESISTOR:   SMD 0402 1.2kΩ ±0.1% 0.063W   [ERA-2AEB122X] [SMD]"
 			(at 54.61 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -8185,7 +8186,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0402 10kΩ ±0.1% 0.063W"
+		(property "Description" "RESISTOR:   SMD 0402 10kΩ ±0.1% 0.063W   [CPF0402B10KE1] [SMD]"
 			(at 171.45 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -8511,7 +8512,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "399482eb-857c-44c5-9f49-4f290f88de0b")
 		(property "Reference" "TP12"
@@ -8693,7 +8694,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0402 10kΩ ±0.1% 0.063W"
+		(property "Description" "RESISTOR:   SMD 0402 10kΩ ±0.1% 0.063W   [CPF0402B10KE1] [SMD]"
 			(at 127 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -8788,7 +8789,7 @@
 		(dnp no)
 		(uuid "3c70833d-3178-4489-9a34-cc6ee8c3bac5")
 		(property "Reference" "R37"
-			(at 127 137.414 0)
+			(at 129.286 137.414 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8831,7 +8832,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0402 5kΩ ±0.1% 0.050W"
+		(property "Description" "RESISTOR:   SMD 0402 5kΩ ±0.1% 0.050W   [PNM0402E5001BST1] [SMD]"
 			(at 123.19 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -8969,7 +8970,7 @@
 				(justify left)
 			)
 		)
-		(property "Description" "1.2A Id, 60V Vds, 480mOhm Rds, N-Channel HEXFET Power MOSFET, SOT-23"
+		(property "Description" "TRANSISTOR:   MOSFET N-CH 30V 350mA   [DMN63D8L-7] [SOT23]"
 			(at 52.07 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -9109,7 +9110,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0402 5.1kΩ ±1% 0.100W"
+		(property "Description" "RESISTOR:   SMD 0402 5.1kΩ ±0.1% 0.063W   [RT0402BRD075K1L] [SMD]"
 			(at 127 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -9120,7 +9121,7 @@
 				)
 			)
 		)
-		(property "MPN" "ERJ-2RKF5101X"
+		(property "MPN" "RT0402BRD075K1L"
 			(at 135.763 47.498 0)
 			(hide yes)
 			(show_name no)
@@ -9132,7 +9133,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "OEPSPN" "OEPS020173"
+		(property "OEPSPN" "OEPS020203"
 			(at 127 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -9154,7 +9155,7 @@
 				)
 			)
 		)
-		(property "Tolerance" "1%"
+		(property "Tolerance" "0.1%"
 			(at 127 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -9248,7 +9249,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD CER 0402 15nF 35V ±10% X7R"
+		(property "Description" "CAPACITOR:   SMD CER 0402 15nF 35V ±10% X7R   [CGA2B3X7R1V153K050BB] [SMD]"
 			(at 176.53 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -9339,7 +9340,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "47ef59bc-5a10-4747-8d85-95cc23ec3515")
 		(property "Reference" "TP8"
@@ -9519,7 +9520,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0402 10kΩ ±0.1% 0.063W"
+		(property "Description" "RESISTOR:   SMD 0402 10kΩ ±0.1% 0.063W   [CPF0402B10KE1] [SMD]"
 			(at 171.45 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -9701,8 +9702,9 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MotorCkeck2"
+		(property "Value" "61300511021"
 			(at 267.97 82.5501 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9734,7 +9736,7 @@
 				)
 			)
 		)
-		(property "Description" "CONN HEADER R/A 5POS 2.54MM"
+		(property "Description" "CONNECTOR:   HEADER 2.54MM R/A 1x5POS   [61300511021] [TH]"
 			(at 265.43 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -9881,7 +9883,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0402 249kΩ ±1% 0.063W"
+		(property "Description" "RESISTOR:   SMD 0402 249kΩ ±1% 0.063W   [RMCF0402FT249K] [SMD]"
 			(at 106.68 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -9926,7 +9928,7 @@
 				)
 			)
 		)
-		(property "Tolerance" "0.1%"
+		(property "Tolerance" "1%"
 			(at 106.68 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -10018,7 +10020,7 @@
 				)
 			)
 		)
-		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+		(property "Description" "DIODE:   Standard 75V 150mA   [1N4148WX-TP] [SOD-323]"
 			(at 71.12 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -10153,7 +10155,7 @@
 				)
 			)
 		)
-		(property "Description" "OPAMP VFB 1 CIRCUIT"
+		(property "Description" "IC:   OPAMP VFB 1 CIRCUIT   [THS4281DBVT] [SC-74A]"
 			(at 50.8 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -10299,7 +10301,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD CER 0402 100nF 50V ±10% X7R"
+		(property "Description" "CAPACITOR:   SMD CER 0402 100nF 50V ±10% X7R   [CGA2B3X7R1H104K050BB] [SMD]"
 			(at 144.78 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -10589,7 +10591,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0402 100Ω ±1% 0.250W"
+		(property "Description" "RESISTOR:   SMD 0402 100Ω ±1% 0.250W   [RCS0402100RFKED] [SMD]"
 			(at 186.69 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -10726,7 +10728,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0805 0.5Ω ±1% 1/3W"
+		(property "Description" "RESISTOR:   SMD 0805 0.5Ω ±1% 1/3W    [RL1220S-R50-F] [SMD]"
 			(at 119.38 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -10816,7 +10818,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "68e986b4-7467-4a13-874d-10d62d850a8a")
 		(property "Reference" "TP4"
@@ -10996,7 +10998,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0402 10kΩ ±0.1% 0.063W"
+		(property "Description" "RESISTOR:   SMD 0402 10kΩ ±0.1% 0.063W   [CPF0402B10KE1] [SMD]"
 			(at 67.31 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -11134,7 +11136,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0402 1MΩ ±1% 0.063W"
+		(property "Description" "RESISTOR:   SMD 0402 1MΩ ±1% 0.063W   [CRCW04021M00FKED] [SMD]"
 			(at 255.27 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -11272,7 +11274,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0603 1.2kΩ ±0.1% 0.100W"
+		(property "Description" "RESISTOR:   SMD 0402 1.2kΩ ±0.1% 0.063W   [ERA-2AEB122X] [SMD]"
 			(at 34.29 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -11486,7 +11488,7 @@
 				)
 			)
 		)
-		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+		(property "Description" "DIODE:   Standard 75V 150mA   [1N4148WX-TP] [SOD-323]"
 			(at 49.53 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -11731,7 +11733,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "742c6271-4f4d-4e29-a1a7-a79408a9ced1")
 		(property "Reference" "TP11"
@@ -12147,7 +12149,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0402 249kΩ ±1% 0.063W"
+		(property "Description" "RESISTOR:   SMD 0402 249kΩ ±1% 0.063W   [RMCF0402FT249K] [SMD]"
 			(at 106.68 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -12192,7 +12194,7 @@
 				)
 			)
 		)
-		(property "Tolerance" "0.1%"
+		(property "Tolerance" "1%"
 			(at 106.68 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -12286,7 +12288,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD CER 0402 15nF 35V ±10% X7R"
+		(property "Description" "CAPACITOR:   SMD CER 0402 15nF 35V ±10% X7R   [CGA2B3X7R1V153K050BB] [SMD]"
 			(at 176.53 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -12502,7 +12504,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD CER 0402 15nF 35V ±10% X7R"
+		(property "Description" "CAPACITOR:   SMD CER 0402 15nF 35V ±10% X7R   [CGA2B3X7R1V153K050BB] [SMD]"
 			(at 166.37 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -12638,7 +12640,7 @@
 				)
 			)
 		)
-		(property "Description" "OPAMP VFB 1 CIRCUIT"
+		(property "Description" "IC:   OPAMP VFB 1 CIRCUIT   [THS4281DBVT] [SC-74A]"
 			(at 144.78 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -12943,7 +12945,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0402 10kΩ ±0.1% 0.063W"
+		(property "Description" "RESISTOR:   SMD 0402 10kΩ ±0.1% 0.063W   [CPF0402B10KE1] [SMD]"
 			(at 34.29 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -13081,7 +13083,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0603 1.2kΩ ±0.1% 0.100W"
+		(property "Description" "RESISTOR:   SMD 0402 1.2kΩ ±0.1% 0.063W   [ERA-2AEB122X] [SMD]"
 			(at 48.26 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -13187,7 +13189,7 @@
 			)
 		)
 		(property "Value" "5k"
-			(at 115.824 139.7 0)
+			(at 115.824 139.192 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13219,7 +13221,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0402 5kΩ ±0.1% 0.050W"
+		(property "Description" "RESISTOR:   SMD 0402 5kΩ ±0.1% 0.050W   [PNM0402E5001BST1] [SMD]"
 			(at 118.11 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -13357,7 +13359,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD CER 0402 100nF 50V ±10% X7R"
+		(property "Description" "CAPACITOR:   SMD CER 0402 100nF 50V ±10% X7R   [CGA2B3X7R1H104K050BB] [SMD]"
 			(at 50.8 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -13447,7 +13449,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "8ff1c641-8a2b-4e34-842a-523c723979d6")
 		(property "Reference" "TP3"
@@ -13628,7 +13630,7 @@
 				)
 			)
 		)
-		(property "Description" "RELAY TELECOM SPDT 2A 5V"
+		(property "Description" "OTHER:   RELAY SPDT 2A 5V TELECOM   [1462042-8] [SMD]"
 			(at 82.55 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -13777,7 +13779,7 @@
 				(justify left)
 			)
 		)
-		(property "Description" "MOSFET P-CH 20V 1A"
+		(property "Description" "TRANSISTOR:   MOSFET P-CH 20V 1A   [PMF170XP,115] [SOT-323]"
 			(at 66.04 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -13885,7 +13887,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD CER 0402 15nF 35V ±10% X7R"
+		(property "Description" "CAPACITOR:   SMD CER 0402 15nF 35V ±10% X7R   [CGA2B3X7R1V153K050BB] [SMD]"
 			(at 82.55 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -14023,7 +14025,7 @@
 				(justify left)
 			)
 		)
-		(property "Description" "1.2A Id, 60V Vds, 480mOhm Rds, N-Channel HEXFET Power MOSFET, SOT-23"
+		(property "Description" "TRANSISTOR:   MOSFET N-CH 30V 350mA   [DMN63D8L-7] [SOT23]"
 			(at 52.07 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -14130,7 +14132,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Value" "Conn_02x03_Odd_Even"
+		(property "Value" "61300621021"
 			(at 261.62 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -14164,7 +14166,7 @@
 				)
 			)
 		)
-		(property "Description" "HEADER 2.54MM R/A 2x3POS"
+		(property "Description" "CONNECTOR:   HEADER 2.54MM R/A 2x3POS   [61300621021] [TH]"
 			(at 262.89 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -14925,7 +14927,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD CER 0402 15nF 35V ±10% X7R"
+		(property "Description" "CAPACITOR:   SMD CER 0402 15nF 35V ±10% X7R   [CGA2B3X7R1V153K050BB] [SMD]"
 			(at 166.37 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -15029,7 +15031,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Conn_01x02_Socket"
+		(property "Value" "PPTC021LFBN-RC"
 			(at 215.9 113.6649 90)
 			(hide yes)
 			(show_name no)
@@ -15063,7 +15065,7 @@
 				)
 			)
 		)
-		(property "Description" "HEADER RCPT 2.54MM straight 1x2POS"
+		(property "Description" "CONNECTOR:   HEADER RCPT 2.54MM straight 1x2POS   [PPTC021LFBN-RC] [TH]"
 			(at 212.09 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -15153,7 +15155,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "b7d879ce-29d9-444c-923f-dc79b7cc60cf")
 		(property "Reference" "TP9"
@@ -15491,7 +15493,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0402 5.1kΩ ±1% 0.100W"
+		(property "Description" "RESISTOR:   SMD 0402 5.1kΩ ±0.1% 0.063W   [RT0402BRD075K1L] [SMD]"
 			(at 127 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -15502,7 +15504,7 @@
 				)
 			)
 		)
-		(property "MPN" "ERJ-2RKF5101X"
+		(property "MPN" "RT0402BRD075K1L"
 			(at 135.763 90.678 0)
 			(hide yes)
 			(show_name no)
@@ -15514,7 +15516,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "OEPSPN" "OEPS020173"
+		(property "OEPSPN" "OEPS020203"
 			(at 127 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -15536,7 +15538,7 @@
 				)
 			)
 		)
-		(property "Tolerance" "1%"
+		(property "Tolerance" "0.1%"
 			(at 127 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -15627,7 +15629,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0402 10kΩ ±0.1% 0.063W"
+		(property "Description" "RESISTOR:   SMD 0402 10kΩ ±0.1% 0.063W   [CPF0402B10KE1] [SMD]"
 			(at 161.29 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -15919,7 +15921,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0402 10kΩ ±0.1% 0.063W"
+		(property "Description" "RESISTOR:   SMD 0402 10kΩ ±0.1% 0.063W   [CPF0402B10KE1] [SMD]"
 			(at 33.02 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -16055,7 +16057,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0402 100Ω ±1% 0.250W"
+		(property "Description" "RESISTOR:   SMD 0402 100Ω ±1% 0.250W   [RCS0402100RFKED] [SMD]"
 			(at 40.64 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -16192,7 +16194,7 @@
 				)
 			)
 		)
-		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+		(property "Description" "DIODE:   Standard 75V 150mA   [1N4148WX-TP] [SOD-323]"
 			(at 189.23 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -16330,7 +16332,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0402 28kΩ ±0.1% 0.063W"
+		(property "Description" "RESISTOR:   SMD 0402 24kΩ ±1% 0.100W   [ERJ-2RKF2402X] [SMD]"
 			(at 123.19 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -16620,7 +16622,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0402 100Ω ±1% 0.250W"
+		(property "Description" "RESISTOR:   SMD 0402 100Ω ±1% 0.250W   [RCS0402100RFKED] [SMD]"
 			(at 40.64 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -16710,7 +16712,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "d3f68f9a-02b8-4eda-bb1b-1a2e555d1369")
 		(property "Reference" "TP5"
@@ -16925,7 +16927,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "d62734ba-0721-4db8-a249-131fb908fd0e")
 		(property "Reference" "TP2"
@@ -17107,7 +17109,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD CER 0402 100nF 50V ±10% X7R"
+		(property "Description" "CAPACITOR:   SMD CER 0402 100nF 50V ±10% X7R   [CGA2B3X7R1H104K050BB] [SMD]"
 			(at 144.78 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -17244,7 +17246,7 @@
 				)
 			)
 		)
-		(property "Description" "RELAY TELECOM SPDT 2A 5V"
+		(property "Description" "OTHER:   RELAY SPDT 2A 5V TELECOM   [1462042-8] [SMD]"
 			(at 62.23 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -17390,7 +17392,7 @@
 				(justify left)
 			)
 		)
-		(property "Description" "1.2A Id, 60V Vds, 480mOhm Rds, N-Channel HEXFET Power MOSFET, SOT-23"
+		(property "Description" "TRANSISTOR:   MOSFET N-CH 30V 350mA   [DMN63D8L-7] [SOT23]"
 			(at 198.12 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -17605,7 +17607,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0402 10kΩ ±0.1% 0.063W"
+		(property "Description" "RESISTOR:   SMD 0402 10kΩ ±0.1% 0.063W   [CPF0402B10KE1] [SMD]"
 			(at 77.47 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -17897,7 +17899,7 @@
 				)
 			)
 		)
-		(property "Description" "PRECISION HIGH VOLTAGE HIGH-SIDE CURRENT MONITOR"
+		(property "Description" "IC:   CURRENT MONITOR 2%   [ZXCT1082QE5TA] [SOT-25]"
 			(at 123.952 156.718 0)
 			(hide yes)
 			(show_name no)
@@ -17995,7 +17997,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "e9b92327-e354-48f2-8a33-aad7f9cd3f4e")
 		(property "Reference" "TP7"
@@ -18128,7 +18130,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "ecf6de63-fef5-41a2-a669-e30f14ced2d8")
 		(property "Reference" "TP6"
@@ -18311,7 +18313,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD CER 0402 15nF 35V ±10% X7R"
+		(property "Description" "CAPACITOR:   SMD CER 0402 15nF 35V ±10% X7R   [CGA2B3X7R1V153K050BB] [SMD]"
 			(at 72.39 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -18919,7 +18921,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0402 10kΩ ±0.1% 0.063W"
+		(property "Description" "RESISTOR:   SMD 0402 10kΩ ±0.1% 0.063W   [CPF0402B10KE1] [SMD]"
 			(at 34.29 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -19102,7 +19104,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "4k3"
+		(property "Value" "4.3k"
 			(at 125.73 179.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19135,7 +19137,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0603 4.3kΩ ±0.1% 0.063W"
+		(property "Description" "RESISTOR:   SMD 0603 4.3kΩ ±5% 0.100W   [ERJ-3GEYJ432V] [SMD]"
 			(at 123.19 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -19180,7 +19182,7 @@
 				)
 			)
 		)
-		(property "Tolerance" "1%"
+		(property "Tolerance" "5%"
 			(at 123.19 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -19273,7 +19275,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0402 5.1kΩ ±1% 0.100W"
+		(property "Description" "RESISTOR:   SMD 0402 5.1kΩ ±0.1% 0.063W   [RT0402BRD075K1L] [SMD]"
 			(at 33.02 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -19284,7 +19286,7 @@
 				)
 			)
 		)
-		(property "MPN" "ERJ-2RKF5101X"
+		(property "MPN" "RT0402BRD075K1L"
 			(at 41.783 47.498 0)
 			(hide yes)
 			(show_name no)
@@ -19296,7 +19298,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "OEPSPN" "OEPS020173"
+		(property "OEPSPN" "OEPS020203"
 			(at 33.02 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -19318,7 +19320,7 @@
 				)
 			)
 		)
-		(property "Tolerance" "1%"
+		(property "Tolerance" "0.1%"
 			(at 33.02 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -19410,7 +19412,7 @@
 				)
 			)
 		)
-		(property "Description" "RELAY TELECOM SPDT 2A 5V"
+		(property "Description" "OTHER:   RELAY SPDT 2A 5V TELECOM   [1462042-8] [SMD]"
 			(at 199.39 130.81 0)
 			(hide yes)
 			(show_name no)

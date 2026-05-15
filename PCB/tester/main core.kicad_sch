@@ -5972,7 +5972,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_SPST"
+		(property "Value" "TL3305BF260QG"
 			(at 22.86 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -6005,7 +6005,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch"
+		(property "Description" "OTHER:   SWITCH TACTILE SPST-NO 0.05A 12V   [TL3305BF260QG] [SMD]"
 			(at 22.86 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -6108,7 +6108,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_SPST"
+		(property "Value" "TL3305BF260QG"
 			(at 53.34 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -6141,7 +6141,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch"
+		(property "Description" "OTHER:   SWITCH TACTILE SPST-NO 0.05A 12V   [TL3305BF260QG] [SMD]"
 			(at 53.34 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -6277,7 +6277,7 @@
 				)
 			)
 		)
-		(property "Description" "LED 0603 Yellow 590nm 20mA"
+		(property "Description" "DIODE:   LED 0603 Yellow 590nm 20mA   [5990040007F] [0603]"
 			(at 219.71 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -6381,7 +6381,7 @@
 				)
 			)
 		)
-		(property "Value" "2k"
+		(property "Value" "330R"
 			(at 69.85 68.326 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6413,7 +6413,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0402 2kΩ ±1% 0.100W"
+		(property "Description" "RESISTOR:   SMD 0402 330Ω ±1% 0.200W   [CRCW0402330RFKEDHP] [SMD]"
 			(at 69.85 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -6424,7 +6424,7 @@
 				)
 			)
 		)
-		(property "MPN" "ERJ-2RKF2001X"
+		(property "MPN" "CRCW0402330RFKEDHP "
 			(at 66.802 62.357 0)
 			(hide yes)
 			(show_name no)
@@ -6436,7 +6436,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "OEPSPN" "OEPS020007"
+		(property "OEPSPN" "OEPS020191"
 			(at 69.85 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -6595,7 +6595,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_SPST"
+		(property "Value" "TL3305BF260QG"
 			(at 52.07 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -6628,7 +6628,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch"
+		(property "Description" "OTHER:   SWITCH TACTILE SPST-NO 0.05A 12V   [TL3305BF260QG] [SMD]"
 			(at 52.07 127 0)
 			(hide yes)
 			(show_name no)
@@ -6731,7 +6731,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_SPST"
+		(property "Value" "TL3305BF260QG"
 			(at 52.07 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -6764,7 +6764,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch"
+		(property "Description" "OTHER:   SWITCH TACTILE SPST-NO 0.05A 12V   [TL3305BF260QG] [SMD]"
 			(at 52.07 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -7056,7 +7056,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD CER 0402 100nF 50V ±10% X7R"
+		(property "Description" "CAPACITOR:   SMD CER 0402 100nF 50V ±10% X7R   [CGA2B3X7R1H104K050BB] [SMD]"
 			(at 34.29 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -7194,7 +7194,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD CER 0402 100nF 50V ±10% X7R"
+		(property "Description" "CAPACITOR:   SMD CER 0402 100nF 50V ±10% X7R   [CGA2B3X7R1H104K050BB] [SMD]"
 			(at 63.5 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -7332,7 +7332,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD CER 0402 100nF 50V ±10% X7R"
+		(property "Description" "CAPACITOR:   SMD CER 0402 100nF 50V ±10% X7R   [CGA2B3X7R1H104K050BB] [SMD]"
 			(at 33.02 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -7548,7 +7548,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD CER 0402 100nF 50V ±10% X7R"
+		(property "Description" "CAPACITOR:   SMD CER 0402 100nF 50V ±10% X7R   [CGA2B3X7R1H104K050BB] [SMD]"
 			(at 62.23 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -7762,7 +7762,7 @@
 				)
 			)
 		)
-		(property "Description" "LED 0603 Green 571nm 20mA"
+		(property "Description" "DIODE:   LED 0603 Green 571nm 20mA   [LTST-C191KGKT] [0603]"
 			(at 29.21 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -7976,7 +7976,7 @@
 				)
 			)
 		)
-		(property "Description" "LED 0603 Green 571nm 20mA"
+		(property "Description" "DIODE:   LED 0603 Green 571nm 20mA   [LTST-C191KGKT] [0603]"
 			(at 31.75 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -8113,7 +8113,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0402 10kΩ ±0.1% 0.063W"
+		(property "Description" "RESISTOR:   SMD 0402 10kΩ ±0.1% 0.063W   [CPF0402B10KE1] [SMD]"
 			(at 248.92 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -8294,7 +8294,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_SPST"
+		(property "Value" "TL3305BF260QG"
 			(at 24.13 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -8327,7 +8327,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch"
+		(property "Description" "OTHER:   SWITCH TACTILE SPST-NO 0.05A 12V   [TL3305BF260QG] [SMD]"
 			(at 24.13 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -8464,7 +8464,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD CER 0402 100nF 50V ±10% X7R"
+		(property "Description" "CAPACITOR:   SMD CER 0402 100nF 50V ±10% X7R   [CGA2B3X7R1H104K050BB] [SMD]"
 			(at 182.88 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -8757,7 +8757,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD CER 0402 100nF 50V ±10% X7R"
+		(property "Description" "CAPACITOR:   SMD CER 0402 100nF 50V ±10% X7R   [CGA2B3X7R1H104K050BB] [SMD]"
 			(at 64.77 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -8973,7 +8973,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD CER 0402 100nF 50V ±10% X7R"
+		(property "Description" "CAPACITOR:   SMD CER 0402 100nF 50V ±10% X7R   [CGA2B3X7R1H104K050BB] [SMD]"
 			(at 33.02 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -9155,7 +9155,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_SPST"
+		(property "Value" "TL3305BF260QG"
 			(at 54.61 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -9188,7 +9188,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch"
+		(property "Description" "OTHER:   SWITCH TACTILE SPST-NO 0.05A 12V   [TL3305BF260QG] [SMD]"
 			(at 54.61 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -9323,7 +9323,7 @@
 				)
 			)
 		)
-		(property "Description" "LED 0603 Green 571nm 20mA"
+		(property "Description" "DIODE:   LED 0603 Green 571nm 20mA   [LTST-C191KGKT] [0603]"
 			(at 38.1 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -9615,7 +9615,7 @@
 				)
 			)
 		)
-		(property "Description" "MCU ATXMEGA A4U 8bits 32KB"
+		(property "Description" "IC:   MCU ATXMEGA A4U 8bits 32KB   [ATXMEGA32A4U-MHR] [44-VFQFN]"
 			(at 154.94 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -10114,7 +10114,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD CER 0402 100nF 50V ±10% X7R"
+		(property "Description" "CAPACITOR:   SMD CER 0402 100nF 50V ±10% X7R   [CGA2B3X7R1H104K050BB] [SMD]"
 			(at 99.06 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -10219,7 +10219,7 @@
 				)
 			)
 		)
-		(property "Value" "2k"
+		(property "Value" "330R"
 			(at 40.64 35.306 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10251,7 +10251,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0402 2kΩ ±1% 0.100W"
+		(property "Description" "RESISTOR:   SMD 0402 330Ω ±1% 0.200W   [CRCW0402330RFKEDHP] [SMD]"
 			(at 40.64 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -10262,7 +10262,7 @@
 				)
 			)
 		)
-		(property "MPN" "ERJ-2RKF2001X"
+		(property "MPN" "CRCW0402330RFKEDHP "
 			(at 37.592 29.337 0)
 			(hide yes)
 			(show_name no)
@@ -10274,7 +10274,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "OEPSPN" "OEPS020007"
+		(property "OEPSPN" "OEPS020191"
 			(at 40.64 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -10388,7 +10388,7 @@
 				)
 			)
 		)
-		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+		(property "Description" "DIODE:   Standard 75V 150mA   [1N4148WX-TP] [SOD-323]"
 			(at 254 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -10568,7 +10568,7 @@
 				)
 			)
 		)
-		(property "Value" "2k"
+		(property "Value" "330R"
 			(at 38.1 68.326 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10600,7 +10600,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0402 2kΩ ±1% 0.100W"
+		(property "Description" "RESISTOR:   SMD 0402 330Ω ±1% 0.200W   [CRCW0402330RFKEDHP] [SMD]"
 			(at 38.1 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -10611,7 +10611,7 @@
 				)
 			)
 		)
-		(property "MPN" "ERJ-2RKF2001X"
+		(property "MPN" "CRCW0402330RFKEDHP "
 			(at 35.052 62.357 0)
 			(hide yes)
 			(show_name no)
@@ -10623,7 +10623,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "OEPSPN" "OEPS020007"
+		(property "OEPSPN" "OEPS020191"
 			(at 38.1 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -10704,7 +10704,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_SPST"
+		(property "Value" "TL3305BF260QG"
 			(at 22.86 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -10737,7 +10737,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch"
+		(property "Description" "OTHER:   SWITCH TACTILE SPST-NO 0.05A 12V   [TL3305BF260QG] [SMD]"
 			(at 22.86 127 0)
 			(hide yes)
 			(show_name no)
@@ -10952,7 +10952,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD CER 0402 100nF 50V ±10% X7R"
+		(property "Description" "CAPACITOR:   SMD CER 0402 100nF 50V ±10% X7R   [CGA2B3X7R1H104K050BB] [SMD]"
 			(at 176.53 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -11134,7 +11134,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "560R"
 			(at 46.99 181.61 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11166,7 +11166,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0402 10kΩ ±0.1% 0.063W"
+		(property "Description" "RESISTOR:   SMD 0402 560Ω ±1% 0.063W   [CRCW0402560RFKED] [SMD]"
 			(at 46.99 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -11177,7 +11177,7 @@
 				)
 			)
 		)
-		(property "MPN" "CPF0402B10KE1"
+		(property "MPN" "CRCW0402560RFKED"
 			(at 43.942 194.183 0)
 			(hide yes)
 			(show_name no)
@@ -11189,7 +11189,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "OEPSPN" "OEPS020043"
+		(property "OEPSPN" "OEPS020193"
 			(at 46.99 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -11211,7 +11211,7 @@
 				)
 			)
 		)
-		(property "Tolerance" "0.1%"
+		(property "Tolerance" "1%"
 			(at 46.99 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -11615,7 +11615,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0402 10kΩ ±0.1% 0.063W"
+		(property "Description" "RESISTOR:   SMD 0402 10kΩ ±0.1% 0.063W   [CPF0402B10KE1] [SMD]"
 			(at 219.71 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -11797,7 +11797,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Value" "Conn_02x03_Odd_Even"
+		(property "Value" "PR20203VBDN"
 			(at 189.23 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -11831,7 +11831,7 @@
 				)
 			)
 		)
-		(property "Description" "HEADER 2.54MM straight 2x3POS"
+		(property "Description" "CONNECTOR:   HEADER 2.54MM straight 2x3POS   [PR20203VBDN] [TH]"
 			(at 190.5 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -11980,7 +11980,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD CER 0402 100nF 50V ±10% X7R"
+		(property "Description" "CAPACITOR:   SMD CER 0402 100nF 50V ±10% X7R   [CGA2B3X7R1H104K050BB] [SMD]"
 			(at 62.23 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -12239,7 +12239,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_SPST"
+		(property "Value" "TL3305BF260QG"
 			(at 22.86 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -12272,7 +12272,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch"
+		(property "Description" "OTHER:   SWITCH TACTILE SPST-NO 0.05A 12V   [TL3305BF260QG] [SMD]"
 			(at 22.86 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -12408,7 +12408,7 @@
 				)
 			)
 		)
-		(property "Description" "LED 0603 Green 571nm 20mA"
+		(property "Description" "DIODE:   LED 0603 Green 571nm 20mA   [LTST-C191KGKT] [0603]"
 			(at 30.48 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -12542,7 +12542,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0402 100Ω ±1% 0.250W"
+		(property "Description" "RESISTOR:   SMD 0402 100Ω ±1% 0.250W   [RCS0402100RFKED] [SMD]"
 			(at 259.08 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -12679,7 +12679,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD CER 0402 100nF 50V ±10% X7R"
+		(property "Description" "CAPACITOR:   SMD CER 0402 100nF 50V ±10% X7R   [CGA2B3X7R1H104K050BB] [SMD]"
 			(at 35.56 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -12972,7 +12972,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD CER 0402 100nF 50V ±10% X7R"
+		(property "Description" "CAPACITOR:   SMD CER 0402 100nF 50V ±10% X7R   [CGA2B3X7R1H104K050BB] [SMD]"
 			(at 33.02 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -13267,7 +13267,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD CER 0402 100nF 50V ±10% X7R"
+		(property "Description" "CAPACITOR:   SMD CER 0402 100nF 50V ±10% X7R   [CGA2B3X7R1H104K050BB] [SMD]"
 			(at 168.91 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -13372,7 +13372,7 @@
 				)
 			)
 		)
-		(property "Value" "2k"
+		(property "Value" "330R"
 			(at 46.99 170.18 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13404,7 +13404,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0402 2kΩ ±1% 0.100W"
+		(property "Description" "RESISTOR:   SMD 0402 330Ω ±1% 0.200W   [CRCW0402330RFKEDHP] [SMD]"
 			(at 46.99 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -13415,7 +13415,7 @@
 				)
 			)
 		)
-		(property "MPN" "ERJ-2RKF2001X"
+		(property "MPN" "CRCW0402330RFKEDHP "
 			(at 43.942 165.227 0)
 			(hide yes)
 			(show_name no)
@@ -13427,7 +13427,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "OEPSPN" "OEPS020007"
+		(property "OEPSPN" "OEPS020191"
 			(at 46.99 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -13694,7 +13694,7 @@
 				)
 			)
 		)
-		(property "Description" "LED 0603 Red 635nm 20mA"
+		(property "Description" "DIODE:   LED 0603 Red 633nm 20mA   [5990010007F] [0603]"
 			(at 38.1 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -13705,7 +13705,7 @@
 				)
 			)
 		)
-		(property "MPN" "VFHR1116P-4C82A-TR"
+		(property "MPN" "5990010007F"
 			(at 38.1 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -13716,7 +13716,7 @@
 				)
 			)
 		)
-		(property "OEPSPN" "OEPS030038"
+		(property "OEPSPN" "OEPS030044"
 			(at 38.1 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -13830,7 +13830,7 @@
 				)
 			)
 		)
-		(property "Description" "LED 0603 Green 571nm 20mA"
+		(property "Description" "DIODE:   LED 0603 Green 571nm 20mA   [LTST-C191KGKT] [0603]"
 			(at 60.96 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -14200,7 +14200,7 @@
 				)
 			)
 		)
-		(property "Description" "BUZZER MAGNETIC 3V 5X5MM SMD"
+		(property "Description" "OTHER:   BUZZER MAGNETIC 3V 5X5MM SMD   [CSS-0575A-SMT-TR] [SMD]"
 			(at 261.62 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -14384,7 +14384,7 @@
 				)
 			)
 		)
-		(property "Value" "2k"
+		(property "Value" "330R"
 			(at 39.37 79.756 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14416,7 +14416,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0402 2kΩ ±1% 0.100W"
+		(property "Description" "RESISTOR:   SMD 0402 330Ω ±1% 0.200W   [CRCW0402330RFKEDHP] [SMD]"
 			(at 39.37 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -14427,7 +14427,7 @@
 				)
 			)
 		)
-		(property "MPN" "ERJ-2RKF2001X"
+		(property "MPN" "CRCW0402330RFKEDHP "
 			(at 36.322 73.787 0)
 			(hide yes)
 			(show_name no)
@@ -14439,7 +14439,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "OEPSPN" "OEPS020007"
+		(property "OEPSPN" "OEPS020191"
 			(at 39.37 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -14519,7 +14519,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_SPST"
+		(property "Value" "TL3305BF260QG"
 			(at 25.4 15.24 0)
 			(hide yes)
 			(show_name no)
@@ -14552,7 +14552,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch"
+		(property "Description" "OTHER:   SWITCH TACTILE SPST-NO 0.05A 12V   [TL3305BF260QG] [SMD]"
 			(at 25.4 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -14689,7 +14689,7 @@
 				)
 			)
 		)
-		(property "Description" "OSC 32MHz 10ppm"
+		(property "Description" "IC:   MEMS OSC XO 32MHZ CMOS 10ppm   [DSC1001CI5-032.0000] [4-SMD]"
 			(at 109.22 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -15066,7 +15066,7 @@
 				(justify left)
 			)
 		)
-		(property "Description" "1.2A Id, 60V Vds, 480mOhm Rds, N-Channel HEXFET Power MOSFET, SOT-23"
+		(property "Description" "TRANSISTOR:   MOSFET N-CH 30V 350mA   [DMN63D8L-7] [SOT23]"
 			(at 256.54 153.67 0)
 			(hide yes)
 			(show_name no)

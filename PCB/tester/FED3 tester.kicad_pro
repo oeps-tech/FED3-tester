@@ -608,7 +608,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "production/gerbers/",
+      "plot": "manufacturing/gerbers/",
       "pos_files": "production/P&P/",
       "specctra_dsn": "",
       "step": "FED3_v7.3.stl",
@@ -623,16 +623,16 @@
       "method": 0,
       "sort_order": 1
     },
-    "bom_export_filename": "manufacturing\\bom\\FED3 tester BOM.csv",
+    "bom_export_filename": "manufacturing\\bom\\low-profile-headstage-64ch-3d BOM.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
-      "field_delimiter": ";",
+      "field_delimiter": ",",
       "keep_line_breaks": false,
       "keep_tabs": false,
-      "name": "---",
+      "name": "CSV",
       "ref_delimiter": ",",
       "ref_range_delimiter": "",
-      "string_delimiter": ""
+      "string_delimiter": "\""
     },
     "bom_presets": [
       {
@@ -854,13 +854,13 @@
           "show": true
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Voltage",
           "name": "Voltage",
           "show": true
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Do Not Place",
           "name": "${DNP}",
           "show": true
