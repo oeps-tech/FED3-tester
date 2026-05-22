@@ -623,7 +623,7 @@
       "method": 0,
       "sort_order": 1
     },
-    "bom_export_filename": "manufacturing\\bom\\low-profile-headstage-64ch-3d BOM.csv",
+    "bom_export_filename": "manufacturing\\bom\\FED3 tester BOM.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
