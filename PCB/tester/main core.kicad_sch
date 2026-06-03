@@ -10399,7 +10399,7 @@
 				)
 			)
 		)
-		(property "OEPSPN" "OEPS030017"
+		(property "OEPSPN" "OEPS030052"
 			(at 254 143.51 90)
 			(hide yes)
 			(show_name no)
@@ -10410,7 +10410,7 @@
 				)
 			)
 		)
-		(property "MPN" "1N4148WX-TP"
+		(property "MPN" "1N4148WS-E3-18"
 			(at 254 143.51 90)
 			(hide yes)
 			(show_name no)

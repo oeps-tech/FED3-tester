@@ -10031,7 +10031,7 @@
 				)
 			)
 		)
-		(property "OEPSPN" "OEPS030017"
+		(property "OEPSPN" "OEPS030052"
 			(at 71.12 162.56 90)
 			(hide yes)
 			(show_name no)
@@ -10042,7 +10042,7 @@
 				)
 			)
 		)
-		(property "MPN" "1N4148WX-TP"
+		(property "MPN" "1N4148WS-E3-18"
 			(at 71.12 162.56 90)
 			(hide yes)
 			(show_name no)
@@ -11499,7 +11499,7 @@
 				)
 			)
 		)
-		(property "OEPSPN" "OEPS030017"
+		(property "OEPSPN" "OEPS030052"
 			(at 49.53 129.54 90)
 			(hide yes)
 			(show_name no)
@@ -11510,7 +11510,7 @@
 				)
 			)
 		)
-		(property "MPN" "1N4148WX-TP"
+		(property "MPN" "1N4148WS-E3-18"
 			(at 49.53 129.54 90)
 			(hide yes)
 			(show_name no)
@@ -16205,7 +16205,7 @@
 				)
 			)
 		)
-		(property "OEPSPN" "OEPS030017"
+		(property "OEPSPN" "OEPS030052"
 			(at 189.23 132.08 90)
 			(hide yes)
 			(show_name no)
@@ -16216,7 +16216,7 @@
 				)
 			)
 		)
-		(property "MPN" "1N4148WX-TP"
+		(property "MPN" "1N4148WS-E3-18"
 			(at 189.23 132.08 90)
 			(hide yes)
 			(show_name no)

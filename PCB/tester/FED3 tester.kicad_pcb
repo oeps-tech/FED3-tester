@@ -10414,7 +10414,7 @@
 				)
 			)
 		)
-		(property "OEPSPN" "OEPS030017"
+		(property "OEPSPN" "OEPS030052"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10427,7 +10427,7 @@
 				)
 			)
 		)
-		(property "MPN" "1N4148WX-TP"
+		(property "MPN" "1N4148WS-E3-18"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16935,7 +16935,7 @@
 				)
 			)
 		)
-		(property "OEPSPN" "OEPS030017"
+		(property "OEPSPN" "OEPS030052"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16948,7 +16948,7 @@
 				)
 			)
 		)
-		(property "MPN" "1N4148WX-TP"
+		(property "MPN" "1N4148WS-E3-18"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27361,7 +27361,7 @@
 				)
 			)
 		)
-		(property "OEPSPN" "OEPS030017"
+		(property "OEPSPN" "OEPS030052"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27374,7 +27374,7 @@
 				)
 			)
 		)
-		(property "MPN" "1N4148WX-TP"
+		(property "MPN" "1N4148WS-E3-18"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -33758,7 +33758,7 @@
 				)
 			)
 		)
-		(property "OEPSPN" "OEPS030017"
+		(property "OEPSPN" "OEPS030052"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -33771,7 +33771,7 @@
 				)
 			)
 		)
-		(property "MPN" "1N4148WX-TP"
+		(property "MPN" "1N4148WS-E3-18"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
