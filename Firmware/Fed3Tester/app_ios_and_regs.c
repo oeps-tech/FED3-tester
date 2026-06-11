@@ -10,10 +10,10 @@ void init_ios(void)
 	io_pin2in(&PORTD, 0, PULL_IO_UP, SENSE_IO_EDGES_BOTH);               // SW_START
 	io_pin2in(&PORTD, 1, PULL_IO_UP, SENSE_IO_EDGES_BOTH);               // SW_PROG_OK
 	io_pin2in(&PORTD, 2, PULL_IO_UP, SENSE_IO_EDGES_BOTH);               // SW_PROG_NOK
-	io_pin2in(&PORTD, 3, PULL_IO_UP, SENSE_IO_EDGES_BOTH);               // SW_RGB_OK
-	io_pin2in(&PORTD, 4, PULL_IO_UP, SENSE_IO_EDGES_BOTH);               // SW_RGB_NOK
-	io_pin2in(&PORTD, 5, PULL_IO_UP, SENSE_IO_EDGES_BOTH);               // SW_MOTOR_OK
-	io_pin2in(&PORTD, 6, PULL_IO_UP, SENSE_IO_EDGES_BOTH);               // SW_MOTOR_NOK
+	io_pin2in(&PORTD, 3, PULL_IO_UP, SENSE_IO_EDGES_BOTH);               // SW_MOTOR_OK
+	io_pin2in(&PORTD, 4, PULL_IO_UP, SENSE_IO_EDGES_BOTH);               // SW_MOTOR_NOK
+	io_pin2in(&PORTD, 5, PULL_IO_UP, SENSE_IO_EDGES_BOTH);               // SW_RGB_OK
+	io_pin2in(&PORTD, 6, PULL_IO_UP, SENSE_IO_EDGES_BOTH);               // SW_RGB_NOK
 	io_pin2in(&PORTD, 7, PULL_IO_UP, SENSE_IO_EDGES_BOTH);               // SW_BUZZER_OK
 	io_pin2in(&PORTA, 0, PULL_IO_UP, SENSE_IO_EDGES_BOTH);               // SW_BUZZER_NOK
 
@@ -36,7 +36,7 @@ void init_ios(void)
 	/* Initialize output pins */
 	clr_LED_3V3_AND_VBAT;
 	clr_LED_CURRENT;
-	set_LED_LEDS;
+	clr_LED_LEDS;
 	clr_LED_VCC_RGB;
 	clr_LED_PASS;
 	clr_LED_FAIL;

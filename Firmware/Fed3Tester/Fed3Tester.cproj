@@ -157,6 +157,12 @@
     <ExternalMakeFilePath>Makefile</ExternalMakeFilePath>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="adc_calibration.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="adc_filter.c">
+      <SubType>compile</SubType>
+    </Compile>
     <Compile Include="app.c">
       <SubType>compile</SubType>
     </Compile>
@@ -166,10 +172,25 @@
     <Compile Include="app_ios_and_regs.c">
       <SubType>compile</SubType>
     </Compile>
+    <Compile Include="buttons.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="execution.c">
+      <SubType>compile</SubType>
+    </Compile>
     <Compile Include="interrupts.c">
       <SubType>compile</SubType>
     </Compile>
     <Compile Include="main.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="pcb_test.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="send_periodic_event.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="sound.c">
       <SubType>compile</SubType>
     </Compile>
   </ItemGroup>

@@ -9,6 +9,9 @@
 #define F_CPU 32000000
 #include <util/delay.h>
 
+#include "buttons.h"
+#include "execution.h"
+
 /************************************************************************/
 /* Declare application registers                                        */
 /************************************************************************/
@@ -69,6 +72,9 @@ void core_callback_initialize_hardware(void)
 	adc_A_initialize_single_ended(ADC_REFSEL_INTVCC_gc);	// VCC/1.6 = 3.3/1.6 = 2.0625 V
 	ADCA_CH0_INTCTRL |= ADC_CH_INTLVL_LO_gc;				// Enable ADC0 interrupt
 	_delay_ms(100);
+	
+	/* Initialize buttons' readings */
+	init_buttons_timer();
 }
 
 void core_callback_reset_registers(void)
@@ -109,29 +115,40 @@ void core_callback_device_to_speed(void) {}
 /************************************************************************/
 /* Callbacks: 1 ms timer                                                */
 /************************************************************************/
-extern uint8_t adc_index;
+extern uint8_t analog_index;
+extern uint16_t event_update_counter;
 
-uint16_t counter = 0;
+bool first_run = true;
 
 void core_callback_t_before_exec(void) {}
 void core_callback_t_after_exec(void) {}
 void core_callback_t_new_second(void)
 {
-	counter = 0;
+	if (first_run)
+	{
+		first_run = false;
+		
+		/* Initialize PORTC2 to output because this is the CLKIN */
+		io_pin2out(&PORTC, 2, OUT_IO_DIGITAL, IN_EN_IO_EN);
+	}
+	event_update_counter = 0xFFFF;
 }
 void core_callback_t_500us(void) {}
 void core_callback_t_1ms(void)
 {
-	counter++;
-		
-	//if (counter % 10 == 0)
-	if (counter == 2)
-	{
-	    /* Start conversation on ADCA Channel 1*/
-	    adc_index = 0;
-	    ADCA_CH0_MUXCTRL = (adc_index+1) << 3;
-	    ADCA_CH0_CTRL |= ADC_CH_START_bm;	
-	}
+	/* Call the state machine that runs the test */
+	//state_machine();
+	
+	/* Call the pcb_test that is used for debug */
+	pcb_test();
+	
+	/* Get values each ms */
+	/* Start conversation on ADCA Channel 1*/
+	event_update_counter++;
+	analog_index = 0;
+	ADCA_CH0_MUXCTRL = (analog_index+1) << 3;
+	ADCA_CH0_CTRL |= ADC_CH_START_bm;	
+	
 }
 
 /************************************************************************/

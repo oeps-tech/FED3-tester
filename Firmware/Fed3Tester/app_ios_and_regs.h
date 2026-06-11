@@ -9,20 +9,20 @@ void init_ios(void);
 // SW_START               Description: 
 // SW_PROG_OK             Description: 
 // SW_PROG_NOK            Description: 
-// SW_RGB_OK              Description: 
-// SW_RGB_NOK             Description: 
 // SW_MOTOR_OK            Description: 
 // SW_MOTOR_NOK           Description: 
+// SW_RGB_OK              Description: 
+// SW_RGB_NOK             Description: 
 // SW_BUZZER_OK           Description: 
 // SW_BUZZER_NOK          Description: 
 
 #define read_SW_START read_io(PORTD, 0)         // SW_START
 #define read_SW_PROG_OK read_io(PORTD, 1)       // SW_PROG_OK
 #define read_SW_PROG_NOK read_io(PORTD, 2)      // SW_PROG_NOK
-#define read_SW_RGB_OK read_io(PORTD, 3)        // SW_RGB_OK
-#define read_SW_RGB_NOK read_io(PORTD, 4)       // SW_RGB_NOK
-#define read_SW_MOTOR_OK read_io(PORTD, 5)      // SW_MOTOR_OK
-#define read_SW_MOTOR_NOK read_io(PORTD, 6)     // SW_MOTOR_NOK
+#define read_SW_MOTOR_OK read_io(PORTD, 3)      // SW_MOTOR_OK
+#define read_SW_MOTOR_NOK read_io(PORTD, 4)     // SW_MOTOR_NOK
+#define read_SW_RGB_OK read_io(PORTD, 5)        // SW_RGB_OK
+#define read_SW_RGB_NOK read_io(PORTD, 6)       // SW_RGB_NOK
 #define read_SW_BUZZER_OK read_io(PORTD, 7)     // SW_BUZZER_OK
 #define read_SW_BUZZER_NOK read_io(PORTA, 0)    // SW_BUZZER_NOK
 
@@ -132,7 +132,7 @@ typedef struct
 /************************************************************************/
 /* Registers */
 #define ADD_REG_SWITCHES                    32 // U16    Controls the switches like they were pressed in the physical board
-#define ADD_REG_READINGS                    33 // FLOAT  V_Vbat, V_VccRgb, V_3V3, V_LedCharge, V_LedRed, V_LedGreen, I_VbatLow, I_VbatHigh, SW_Start, SW_Prog, SW_Rgb, SW_Motor, SW_Buzzer, PassFail
+#define ADD_REG_READINGS                    33 // FLOAT  uV_Vbat, uV_VccRgb, uV_3V3, uV_LedCharge, uV_LedRed, uV_LedGreen, uI_Vbat, SW_Start, SW_Prog, SW_Rgb, SW_Motor, SW_Buzzer, CurentState, PassFail
 #define ADD_REG_CONTROL                     34 // U16    Controls internal signals
 #define ADD_REG_CONTROL_SET                 35 // U16    Controls internal signals
 #define ADD_REG_CONTROL_CLEAR               36 // U16    Controls internal signals
@@ -171,5 +171,8 @@ typedef struct
 #define B_LED_VCC_RGB                      (1<<8)       // 
 #define B_LED_PASS                         (1<<9)       // 
 #define B_LED_FAIL                         (1<<10)      // 
+#define B_SOUND_WAIT_FOR_BUTTON            (1<<11)      // 
+#define B_SOUND_PASS                       (1<<12)      // 
+#define B_SOUND_FAIL                       (1<<13)      // 
 
 #endif /* _APP_REGS_H_ */
