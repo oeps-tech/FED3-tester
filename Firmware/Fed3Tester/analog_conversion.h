@@ -11,8 +11,4 @@
 #define get_V_LedGreen()  (adc_get_uV(5) / 1000000.0)
 #define get_I_Vbat()      (adc_get_uV(6))
 
-
-
-// uV_Vbat, uV_VccRgb, uV_3V3, uV_LedCharge, uV_LedRed, uV_LedGreen, uI_Vbat, SW_Start, SW_Prog, SW_Rgb, SW_Motor, SW_Buzzer, PassFail
-
 #endif /* _ANALOG_CONVERSION_H_ */

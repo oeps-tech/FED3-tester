@@ -15,6 +15,8 @@ void send_periodic_event (void)
 //  	{
 //  		app_regs.REG_READINGS[i] = adc_get_uV(i);
 //  	}
+
+	// V_Vbat, V_VccRgb, V_3V3, V_LedCharge, V_LedRed, V_LedGreen, I_Vbat, SW_Start, SW_Prog, SW_Rgb, SW_Motor, SW_Buzzer, CurentState, PassFail
 	
 	app_regs.REG_READINGS[0] = get_V_Vbat();
 	app_regs.REG_READINGS[1] = get_V_VccRgb();

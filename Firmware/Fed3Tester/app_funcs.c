@@ -65,8 +65,6 @@ bool app_write_REG_SWITCHES(void *a)
 void app_read_REG_READINGS(void) {}
 bool app_write_REG_READINGS(void *a)
 {
-	// uV_Vbat, uV_VccRgb, uV_3V3, uV_LedCharge, uV_LedRed, uV_LedGreen, uI_Vbat, SW_Start, SW_Prog, SW_Rgb, SW_Motor, SW_Buzzer, PassFail
-
 	float *reg = ((float*)a);
 
 	app_regs.REG_READINGS[0] = reg[0];
