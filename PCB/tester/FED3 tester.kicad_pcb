@@ -42218,7 +42218,7 @@
 				)
 			)
 		)
-		(property "Value" "100R"
+		(property "Value" "1R"
 			(at 0 1.17 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -42243,7 +42243,7 @@
 				)
 			)
 		)
-		(property "Description" "RESISTOR:   SMD 0402 100Ω ±1% 0.250W   [RCS0402100RFKED] [SMD]"
+		(property "Description" "RESISTOR:   SMD 0402 1Ω ±1% 0.200W   [CRCW04021R00FKEDHP] [SMD]"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -42256,7 +42256,7 @@
 				)
 			)
 		)
-		(property "MPN" "RCS0402100RFKED"
+		(property "MPN" "CRCW04021R00FKEDHP"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -42269,7 +42269,7 @@
 				)
 			)
 		)
-		(property "OEPSPN" "OEPS020028"
+		(property "OEPSPN" "OEPS020224"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
