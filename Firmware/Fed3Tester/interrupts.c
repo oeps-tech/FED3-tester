@@ -53,8 +53,8 @@ ISR(ADCA_CH0_vect, ISR_NAKED)
 		adc_next_index();
 		
 		/* The measurements are complete */
-		/* Send event each 20 ms */
-		if ((event_update_counter % 20) == 0)
+		/* Send event each 10 ms */
+		if ((event_update_counter % 10) == 0)
 		{
 			send_periodic_event();
 		}

@@ -44,7 +44,7 @@ void init_ios(void)
 	clr_BUZZER;
 	clr_EN_3V7_TO_VBAT;
 	clr_EN_DUT_LDO_MODE;
-	set_SELECT_VBAT_CURR_HIGH;
+	clr_SELECT_VBAT_CURR_HIGH;
 	clr_EN_DUT_3V3_LDO;
 }
 

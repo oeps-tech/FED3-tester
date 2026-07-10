@@ -103,8 +103,8 @@ void init_ios(void);
 #define read_EN_DUT_LDO_MODE read_io(PORTB, 1)
 
 /* SELECT_VBAT_CURR_HIGH */
-#define set_SELECT_VBAT_CURR_HIGH set_io(PORTB, 2)
-#define clr_SELECT_VBAT_CURR_HIGH clear_io(PORTB, 2)
+#define set_SELECT_VBAT_CURR_HIGH clear_io(PORTB, 2)
+#define clr_SELECT_VBAT_CURR_HIGH set_io(PORTB, 2)
 #define tgl_SELECT_VBAT_CURR_HIGH toggle_io(PORTB, 2)
 #define read_SELECT_VBAT_CURR_HIGH read_io(PORTB, 2)
 

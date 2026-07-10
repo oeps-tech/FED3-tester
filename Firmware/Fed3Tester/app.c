@@ -137,10 +137,10 @@ void core_callback_t_500us(void) {}
 void core_callback_t_1ms(void)
 {
 	/* Call the state machine that runs the test */
-	//state_machine();
+	state_machine();
 	
 	/* Call the pcb_test that is used for debug */
-	pcb_test();
+	//pcb_test();
 	
 	/* Get values each ms */
 	/* Start conversation on ADCA Channel 1*/
