@@ -161,7 +161,7 @@ int8_t s1 (void)
 
 /************************************************************************
 / STATE 2
-/ ?? Start a 30 s timer
+/ ?? Start a 60 s timer
 / ? Exit with FAIL
 / If Programming ok? = FAIL -> FAIL
 / If Programming ok? = PASS -> Go to next state
@@ -171,7 +171,7 @@ int8_t s2 (void)
 {
 	if (s.new_entry)
 	{
-		s.timeout = 30000;
+		s.timeout = 60000;
 	}
 	
 	if (s.timeout_elapsed)
