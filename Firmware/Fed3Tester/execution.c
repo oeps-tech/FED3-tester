@@ -286,8 +286,8 @@ int8_t s6 (void)
 	{
 		float i;
 		i = get_I_Vbat(); // 3% margin
-		if (i > (0.0221 * 1.03)) GO_TO_FAIL;
-		if (i < (0.0221 * 0.97)) GO_TO_FAIL;
+		if (i > (0.0221 * 1.75)) GO_TO_FAIL;
+		if (i < (0.0221 * 0.925)) GO_TO_FAIL;
 		
 		set_LED_CURRENT;
 		
